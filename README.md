@@ -116,7 +116,7 @@ Accuracy: 0.95
 ---
 ## Decision Boundary Example
 
-![Decision Boundary](images/decision_boundary.png)
+![Decision Boundary](examples/images/decision_boundary.png)
 
 ## 🔬 Comparison with sklearn
 
