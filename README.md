@@ -52,16 +52,17 @@ KNN is a **lazy learning algorithm** — it does not learn a model, it stores th
 ## 📁 Project Structure
 
 ```
-knn-from-scratch/
+KNN-From-Scratch/
+│
+├── examples/
+│   ├──images/
+│   │   └── decision_boundary.png
+│   └── visualize.py
 │
 ├── src/
 │   ├── __init__.py
 │   ├── knn.py
-│   ├── train.py
 │   └── utils.py
-│
-├── examples/
-│   └── visualize.py
 │
 ├── main.py
 ├── README.md
@@ -74,7 +75,7 @@ knn-from-scratch/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/KNN-From-Scratch.git
+git clone https://github.com/ArsPoghosyan/KNN-From-Scratch.git
 cd KNN-From-Scratch
 
 python -m venv venv
@@ -87,13 +88,7 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-### Run basic example
-
-```bash
-python examples/basic_test.py
-```
-
-### Run visualization (recommended)
+### Run visualization
 
 ```bash
 python examples/visualize.py
